@@ -321,6 +321,8 @@ table td { border: 1px solid #e8e8e8; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
+h2 { font-weight: 600; }
+
 .wrapper { max-width: calc(1000px - (30px * 2)); padding-right: 20px; padding-left: 20px; }
 
 .site-header, .site-footer { background-color: #007600; color: white; }
@@ -341,9 +343,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .home img { border: 1px solid black; }
 
-.home-page-photos { width: 48%; border: 1px black solid; margin: 2px; }
+.home-page-photos { width: 50%; border: 1px black solid; margin: 10px; float: right; }
 
 /* 400px to matchup with Google Map */
-@media (max-width: 500px) { .home-page-photos { width: 98%; border: 1px black solid; margin: 10px 0; } }
+@media (max-width: 500px) { .home-page-photos { width: 98%; border: 1px black solid; margin: 10px 0; float: none; } }
 
 /*# sourceMappingURL=style.css.map */

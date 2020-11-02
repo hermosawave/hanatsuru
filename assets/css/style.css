@@ -349,6 +349,9 @@ h2 { font-weight: 600; margin-top: 4px; }
 
 .gallery-image { width: 49%; margin: 2px; }
 
+/* 600px for the hamburger menu */
+@media (max-width: 599px) { .page-link { color: #007600 !important; } }
+
 /* 400px to matchup with Google Map */
 @media (max-width: 500px) { .home-page-photos { width: 98%; border: 1px black solid; margin: 10px 0; float: none; } .home-page-gallery { flex-wrap: wrap; } .gallery-image { width: 100%; margin: 2px; } }
 

@@ -345,6 +345,8 @@ h2 { font-weight: 600; margin-top: 4px; }
 
 .home-page-photos { width: 50%; border: 1px black solid; margin: 10px; float: right; }
 
+.small-photos { float: left; max-height: 400px; }
+
 .home-page-gallery { display: flex; align-items: center; margin: 4px 0; }
 
 .gallery-image { width: 49%; margin: 2px; }

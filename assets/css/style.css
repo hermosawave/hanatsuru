@@ -329,6 +329,8 @@ h2 { font-weight: 600; margin-top: 4px; }
 
 .site-footer { padding: 10px 0; }
 
+.site-footer a { color: lightblue; }
+
 .site-header a.page-link { color: white; }
 
 .site-title img { height: 40px; margin-top: -10px; }
